@@ -1,0 +1,7 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+outputs:
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

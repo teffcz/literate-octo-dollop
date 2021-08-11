@@ -13,13 +13,13 @@
         <table style='margin: auto; width: 1400px; border: solid 1px black; text-align: center;'>
          <tr> <th style='text-decoration: underline;'><?php echo $title; ?></th> </tr>
 
-         <?php
+         <?php /*
         $radku = 20;
         $soubor = file("access.log");
         // vystup radku - jde nam pouze o poslednich $radku
         for ($i = max(0, count($soubor)-$radku); $i < count ($soubor); $i++) {
                 echo "<tr> <td>".$soubor[$i]."</td> \n";
-        }
+        }*/
 ?>
 
         </table>
